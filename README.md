@@ -104,7 +104,7 @@ If you find this work useful in your research, please consider citing our paper:
   year         = {2025},
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.17036490},
-  url          = {https://doi.org/10.5281/zenodo.17036490}
+  url          = {[https://doi.org/10.5281/zenodo.17118793](https://doi.org/10.5281/zenodo.17118793)}
 }
 ```
 
@@ -212,6 +212,6 @@ $$\frac{dW_i}{dt} = \underbrace{\eta \cdot \text{corr}(f_i, C) \cdot W_i}_{\text
   year         = {2025},
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.17036490},
-  url          = {https://doi.org/10.5281/zenodo.17036490}
+  url          = {[https://doi.org/10.5281/zenodo.17118793](https://doi.org/10.5281/zenodo.17118793)}
 }
 ```
