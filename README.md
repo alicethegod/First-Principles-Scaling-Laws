@@ -36,6 +36,7 @@ In this resource-limited context, the **Forgetting Term** dominates, forcing the
   * $H'\_{sie}$ (robustness) **decays** following an **exponential law**.
 <img width="7168" height="4462" alt="vit_D" src="https://github.com/user-attachments/assets/2803eaf4-6349-495c-bfff-ebc25e4835d5" />
 (result on Vit)
+
 ##### **2. N-Scaling (Model Capacity ≫ Data Complexity)**
 
 In this resource-abundant context, the **Learning Term** dominates, forcing the system to robustly memorize the fixed task.
@@ -45,6 +46,7 @@ In this resource-abundant context, the **Learning Term** dominates, forcing the 
 <img width="7168" height="4462" alt="vit_N" src="https://github.com/user-attachments/assets/f0cbfb19-3228-4271-a136-5612d32dfe85" />
 (result on Vit)
 -----
+
 
 #### **Repository Structure**
 
@@ -146,6 +148,7 @@ $$\frac{dW_i}{dt} = \underbrace{\eta \cdot \text{corr}(f_i, C) \cdot W_i}_{\text
   * $H'\_{sie}$ (鲁棒性) 遵循**指数下降**。
 <img width="7168" height="4462" alt="vit_D" src="https://github.com/user-attachments/assets/d23266d7-8d3e-4154-bc4a-a26fec058819" />
 （Vit 结果）
+
 ##### **2. N-Scaling (模型容量 ≫ 数据复杂度)**
 
 在这个资源充裕的情境下，**学习项**占据主导，驱使系统对固定任务进行鲁棒的记忆。
@@ -155,6 +158,7 @@ $$\frac{dW_i}{dt} = \underbrace{\eta \cdot \text{corr}(f_i, C) \cdot W_i}_{\text
 <img width="7168" height="4462" alt="vit_N" src="https://github.com/user-attachments/assets/e0b9b378-14b4-4491-8246-b82d3b6dc9ad" />
 （Vit 结果）
 -----
+
 
 #### **仓库结构**
 
