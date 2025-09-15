@@ -62,8 +62,8 @@ In this resource-abundant context, the **Learning Term** dominates, forcing the 
 │   ├── MLP_N_logic.py
 │   ├── CNN_N_logic.py
 │   └── VIT_N_logic.py
-├── D_Scaling_EN.ipynb              # Main notebook for D-Scaling experiments
-├── N_Scaling_EN.ipynb              # Main notebook for N-Scaling experiments
+├── D_Scaling_English_Version.ipynb              # Main notebook for D-Scaling experiments
+├── N_Scaling_English_Version.ipynb              # Main notebook for N-Scaling experiments
 ├── publication_figure_generator.py # Script to generate final figures from CSV
 ├── requirements.txt                # Python dependencies
 └── README.md                       # This file
@@ -89,7 +89,7 @@ In this resource-abundant context, the **Learning Term** dominates, forcing the 
 To quickly verify the core dynamical prediction of our theory, you can run the minimal experiment. This demo trains a small MLP on a toy dataset and reveals that the internal entropy metrics ($H'\_{tse}$ and $H'\_{sie}$) evolve following precise logarithmic laws during the compression phase of learning.
 
 2.  **Run the Main Experiments**
-    Open the Jupyter notebooks `D_Scaling_EN.ipynb` or `N_Scaling_EN.ipynb`. Select the desired logic module (e.g., `VIT_D_logic.py` for D-Scaling with a ViT) within the notebook and run all cells. This will execute a full experimental sweep and save the results as a `.csv` file.
+    Open the Jupyter notebooks `D_Scaling_English_Version.ipynb` or `N_Scaling_English_Version.ipynb`. Select the desired logic module (e.g., `VIT_D_logic.py` for D-Scaling with a ViT) within the notebook and run all cells. This will execute a full experimental sweep and save the results as a `.csv` file.
 
 3.  **Generate Publication-Quality Figures**
     Use the `publication_figure_generator.py` script to generate the final figures from the `.csv` file produced in the previous step.
@@ -179,8 +179,8 @@ $$\frac{dW_i}{dt} = \underbrace{\eta \cdot \text{corr}(f_i, C) \cdot W_i}_{\text
 │   ├── MLP_N_logic.py
 │   ├── CNN_N_logic.py
 │   └── VIT_N_logic.py
-├── D_Scaling_EN.ipynb               # D-Scaling 实验的主 notebook
-├── N_Scaling_EN.ipynb               # N-Scaling 实验的主 notebook
+├── D_Scaling_English_Version.ipynb               # D-Scaling 实验的主 notebook
+├── N_Scaling_English_Version.ipynb               # N-Scaling 实验的主 notebook
 ├── publication_figure_generator.py # 从CSV生成最终论文图表的脚本
 ├── requirements.txt                 # Python 依赖项
 └── README.md                        # 本文件
@@ -206,7 +206,7 @@ $$\frac{dW_i}{dt} = \underbrace{\eta \cdot \text{corr}(f_i, C) \cdot W_i}_{\text
 为了快速验证我们理论的核心动力学预测，您可以运行这个最小化的实验。该演示在一个玩具数据集上训练一个小型MLP，并揭示了其内部熵指标 ($H'\_{tse}$ 和 $H'\_{sie}$) 在学习的压缩阶段，精确地遵循着对数定律进行演化。
 
 2.  **运行主实验**
-    打开 Jupyter Notebook `D_Scaling_EN.ipynb` 或 `N_Scaling_EN.ipynb`。在 notebook 内部选择您希望使用的逻辑模块（例如，为ViT选择 `VIT_D_logic.py`），然后运行所有代码单元。这将执行完整的实验扫描，并将结果保存为 `.csv` 文件。
+    打开 Jupyter Notebook `D_Scaling_English_Version.ipynb` 或 `N_Scaling_English_Version.ipynb`。在 notebook 内部选择您希望使用的逻辑模块（例如，为ViT选择 `VIT_D_logic.py`），然后运行所有代码单元。这将执行完整的实验扫描，并将结果保存为 `.csv` 文件。
 
 3.  **生成论文级别的图表**
     使用 `publication_figure_generator.py` 脚本，处理上一步生成的 `.csv` 文件，以生成最终的论文图表。
