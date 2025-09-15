@@ -4,11 +4,7 @@
 ## **A First-Principles Derivation of Neural Scaling Laws**
 
 ---
-<p align="center">
 
-<strong><a href="#english-version">English Version</a></strong> | <strong><a href="#版本">中文版本</a></strong>
-
-</p>
 ## **English Version**
 
 This repository contains the official code for the paper **"A First-Principles Derivation of Neural Scaling Laws: A Unified Theory of Hebbian Dynamics and Experimental Contexts"**. We demonstrate how macroscopic scaling laws (D-Scaling, N-Scaling, Chinchilla's Law) emerge from a single microscopic Hebbian dynamical equation, driven by the antagonistic dynamics between generalization and memorization.
