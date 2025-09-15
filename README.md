@@ -1,6 +1,3 @@
----
-~
----
 ## **A First-Principles Derivation of Neural Scaling Laws**
 
 ---
