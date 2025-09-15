@@ -83,9 +83,10 @@ In this resource-abundant context, the **Learning Term** dominates, forcing the 
     ```
 
     *(Note: You will need to generate the `requirements.txt` file via `pip freeze > requirements.txt`)*
-### Quick Demo: logarithmic_dynamics_demo.ipynb (3 mins)
 
-To quickly verify the core dynamical prediction of our theory, you can run the minimal experiment. This demo trains a small MLP on a toy dataset and reveals that the internal entropy metrics ($H'_{tse}$ and $H'_{sie}$) evolve following precise logarithmic laws during the compression phase of learning.
+**Quick Demo: logarithmic_dynamics_demo.ipynb (3 mins)**
+
+To quickly verify the core dynamical prediction of our theory, you can run the minimal experiment. This demo trains a small MLP on a toy dataset and reveals that the internal entropy metrics ($H'_{tse} and $H'_{sie}$) evolve following precise logarithmic laws during the compression phase of learning.
 
 2.  **Run the Main Experiments**
     Open the Jupyter notebooks `D_Scaling_EN.ipynb` or `N_Scaling_EN.ipynb`. Select the desired logic module (e.g., `VIT_D_logic_EN.py` for D-Scaling with a ViT) within the notebook and run all cells. This will execute a full experimental sweep and save the results as a `.csv` file.
