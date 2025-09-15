@@ -86,7 +86,7 @@ In this resource-abundant context, the **Learning Term** dominates, forcing the 
 
 **Quick Demo: logarithmic_dynamics_demo.ipynb (3 mins)**
 
-To quickly verify the core dynamical prediction of our theory, you can run the minimal experiment. This demo trains a small MLP on a toy dataset and reveals that the internal entropy metrics ($H'_{tse} and $H'_{sie}$) evolve following precise logarithmic laws during the compression phase of learning.
+To quickly verify the core dynamical prediction of our theory, you can run the minimal experiment. This demo trains a small MLP on a toy dataset and reveals that the internal entropy metrics ($H'\_{tse}$ and $H'\_{sie}$) evolve following precise logarithmic laws during the compression phase of learning.
 
 2.  **Run the Main Experiments**
     Open the Jupyter notebooks `D_Scaling_EN.ipynb` or `N_Scaling_EN.ipynb`. Select the desired logic module (e.g., `VIT_D_logic_EN.py` for D-Scaling with a ViT) within the notebook and run all cells. This will execute a full experimental sweep and save the results as a `.csv` file.
@@ -200,9 +200,9 @@ $$\frac{dW_i}{dt} = \underbrace{\eta \cdot \text{corr}(f_i, C) \cdot W_i}_{\text
     ```
 
     *(注意: 您需要先运行 `pip freeze > requirements.txt` 命令来生成您的依赖项文件)*
-### 快速入门演示: logarithmic_dynamics_demo.ipynb (3分钟)
+**快速入门演示: logarithmic_dynamics_demo.ipynb (3分钟)**
 
-为了快速验证我们理论的核心动力学预测，您可以运行这个最小化的实验。该演示在一个玩具数据集上训练一个小型MLP，并揭示了其内部熵指标 ($H'*{tse}$ 和 $H'*{sie}$) 在学习的压缩阶段，精确地遵循着对数定律进行演化。
+为了快速验证我们理论的核心动力学预测，您可以运行这个最小化的实验。该演示在一个玩具数据集上训练一个小型MLP，并揭示了其内部熵指标 ($H'\_{tse}$ 和 $H'\_{sie}$) 在学习的压缩阶段，精确地遵循着对数定律进行演化。
 
 2.  **运行主实验**
     打开 Jupyter Notebook `D_Scaling_EN.ipynb` 或 `N_Scaling_EN.ipynb`。在 notebook 内部选择您希望使用的逻辑模块（例如，为ViT选择 `VIT_D_logic_EN.py`），然后运行所有代码单元。这将执行完整的实验扫描，并将结果保存为 `.csv` 文件。
