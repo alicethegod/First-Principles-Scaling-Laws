@@ -34,14 +34,16 @@ In this resource-limited context, the **Forgetting Term** dominates, forcing the
 
   * $H'\_{tse}$ (abstraction cost) **rises** following a **power law**.
   * $H'\_{sie}$ (robustness) **decays** following an **exponential law**.
-![[vit_D 1.png]]
+<img width="7168" height="4462" alt="vit_D" src="https://github.com/user-attachments/assets/2803eaf4-6349-495c-bfff-ebc25e4835d5" />
+(result on Vit)
 ##### **2. N-Scaling (Model Capacity ≫ Data Complexity)**
 
 In this resource-abundant context, the **Learning Term** dominates, forcing the system to robustly memorize the fixed task.
 
   * $H'\_{tse}$ (abstraction cost) **decays** following a **power law**.
   * $H'\_{sie}$ (robustness) **grows** following a **logarithmic law**.
-![[vit_N 2.png]](result on Vit)
+<img width="7168" height="4462" alt="vit_N" src="https://github.com/user-attachments/assets/f0cbfb19-3228-4271-a136-5612d32dfe85" />
+(result on Vit)
 -----
 
 #### **Repository Structure**
@@ -104,7 +106,7 @@ If you find this work useful in your research, please consider citing our paper:
   year         = {2025},
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.17036490},
-  url          = {[https://doi.org/10.5281/zenodo.17118793](https://doi.org/10.5281/zenodo.17118793)}
+  url          = {https://doi.org/10.5281/zenodo.17118793}
 }
 ```
 
@@ -142,14 +144,16 @@ $$\frac{dW_i}{dt} = \underbrace{\eta \cdot \text{corr}(f_i, C) \cdot W_i}_{\text
 
   * $H'\_{tse}$ (抽象成本) 遵循**幂律上涨**。
   * $H'\_{sie}$ (鲁棒性) 遵循**指数下降**。
-![[vit_D.png]]
+<img width="7168" height="4462" alt="vit_D" src="https://github.com/user-attachments/assets/d23266d7-8d3e-4154-bc4a-a26fec058819" />
+（Vit 结果）
 ##### **2. N-Scaling (模型容量 ≫ 数据复杂度)**
 
 在这个资源充裕的情境下，**学习项**占据主导，驱使系统对固定任务进行鲁棒的记忆。
 
   * $H'\_{tse}$ (抽象成本) 遵循**幂律下降**。
   * $H'\_{sie}$ (鲁棒性) 遵循**对数增长**。
-![[vit_N.png]]（Vit 结果）
+<img width="7168" height="4462" alt="vit_N" src="https://github.com/user-attachments/assets/e0b9b378-14b4-4491-8246-b82d3b6dc9ad" />
+（Vit 结果）
 -----
 
 #### **仓库结构**
@@ -212,6 +216,6 @@ $$\frac{dW_i}{dt} = \underbrace{\eta \cdot \text{corr}(f_i, C) \cdot W_i}_{\text
   year         = {2025},
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.17036490},
-  url          = {[https://doi.org/10.5281/zenodo.17118793](https://doi.org/10.5281/zenodo.17118793)}
+  url          = {https://doi.org/10.5281/zenodo.17118793}
 }
 ```
