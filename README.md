@@ -200,6 +200,7 @@ $$\frac{dW_i}{dt} = \underbrace{\eta \cdot \text{corr}(f_i, C) \cdot W_i}_{\text
     ```
 
     *(注意: 您需要先运行 `pip freeze > requirements.txt` 命令来生成您的依赖项文件)*
+
 **快速入门演示: logarithmic_dynamics_demo.ipynb (3分钟)**
 
 为了快速验证我们理论的核心动力学预测，您可以运行这个最小化的实验。该演示在一个玩具数据集上训练一个小型MLP，并揭示了其内部熵指标 ($H'\_{tse}$ 和 $H'\_{sie}$) 在学习的压缩阶段，精确地遵循着对数定律进行演化。
