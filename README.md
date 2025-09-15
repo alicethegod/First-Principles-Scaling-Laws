@@ -45,6 +45,7 @@ In this resource-abundant context, the **Learning Term** dominates, forcing the 
   * $H'\_{sie}$ (robustness) **grows** following a **logarithmic law**.
 <img width="7168" height="4462" alt="vit_N" src="https://github.com/user-attachments/assets/f0cbfb19-3228-4271-a136-5612d32dfe85" />
 (result on Vit)
+
 -----
 
 
@@ -157,6 +158,7 @@ $$\frac{dW_i}{dt} = \underbrace{\eta \cdot \text{corr}(f_i, C) \cdot W_i}_{\text
   * $H'\_{sie}$ (鲁棒性) 遵循**对数增长**。
 <img width="7168" height="4462" alt="vit_N" src="https://github.com/user-attachments/assets/e0b9b378-14b4-4491-8246-b82d3b6dc9ad" />
 （Vit 结果）
+
 -----
 
 
