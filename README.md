@@ -62,6 +62,7 @@ In this resource-abundant context, the **Learning Term** dominates, forcing the 
 │   ├── MLP_N_logic.py
 │   ├── CNN_N_logic.py
 │   └── VIT_N_logic.py
+├── logarithmic_dynamics_demo.ipynb              # a quick demo for experiment theory
 ├── D_Scaling_English_Version.ipynb              # Main notebook for D-Scaling experiments
 ├── N_Scaling_English_Version.ipynb              # Main notebook for N-Scaling experiments
 ├── publication_figure_generator.py # Script to generate final figures from CSV
@@ -179,6 +180,7 @@ $$\frac{dW_i}{dt} = \underbrace{\eta \cdot \text{corr}(f_i, C) \cdot W_i}_{\text
 │   ├── MLP_N_logic.py
 │   ├── CNN_N_logic.py
 │   └── VIT_N_logic.py
+├── logarithmic_dynamics_demo.ipynb               # 实验理论的快速验证演示
 ├── D_Scaling_English_Version.ipynb               # D-Scaling 实验的主 notebook
 ├── N_Scaling_English_Version.ipynb               # N-Scaling 实验的主 notebook
 ├── publication_figure_generator.py # 从CSV生成最终论文图表的脚本
