@@ -89,10 +89,10 @@ In this resource-abundant context, the **Learning Term** dominates, forcing the 
 To quickly verify the core dynamical prediction of our theory, you can run the minimal experiment. This demo trains a small MLP on a toy dataset and reveals that the internal entropy metrics ($H'\_{tse}$ and $H'\_{sie}$) evolve following precise logarithmic laws during the compression phase of learning.
 
 2.  **Run the Main Experiments**
-    Open the Jupyter notebooks `D_Scaling_EN.ipynb` or `N_Scaling_EN.ipynb`. Select the desired logic module (e.g., `VIT_D_logic_EN.py` for D-Scaling with a ViT) within the notebook and run all cells. This will execute a full experimental sweep and save the results as a `.csv` file.
+    Open the Jupyter notebooks `D_Scaling_EN.ipynb` or `N_Scaling_EN.ipynb`. Select the desired logic module (e.g., `VIT_D_logic.py` for D-Scaling with a ViT) within the notebook and run all cells. This will execute a full experimental sweep and save the results as a `.csv` file.
 
 3.  **Generate Publication-Quality Figures**
-    Use the `publication_figure_generator_EN.py` script to generate the final figures from the `.csv` file produced in the previous step.
+    Use the `publication_figure_generator.py` script to generate the final figures from the `.csv` file produced in the previous step.
 
     ```bash
     python publication_figure_generator.py path/to/your_results.csv
@@ -206,7 +206,7 @@ $$\frac{dW_i}{dt} = \underbrace{\eta \cdot \text{corr}(f_i, C) \cdot W_i}_{\text
 为了快速验证我们理论的核心动力学预测，您可以运行这个最小化的实验。该演示在一个玩具数据集上训练一个小型MLP，并揭示了其内部熵指标 ($H'\_{tse}$ 和 $H'\_{sie}$) 在学习的压缩阶段，精确地遵循着对数定律进行演化。
 
 2.  **运行主实验**
-    打开 Jupyter Notebook `D_Scaling_EN.ipynb` 或 `N_Scaling_EN.ipynb`。在 notebook 内部选择您希望使用的逻辑模块（例如，为ViT选择 `VIT_D_logic_EN.py`），然后运行所有代码单元。这将执行完整的实验扫描，并将结果保存为 `.csv` 文件。
+    打开 Jupyter Notebook `D_Scaling_EN.ipynb` 或 `N_Scaling_EN.ipynb`。在 notebook 内部选择您希望使用的逻辑模块（例如，为ViT选择 `VIT_D_logic.py`），然后运行所有代码单元。这将执行完整的实验扫描，并将结果保存为 `.csv` 文件。
 
 3.  **生成论文级别的图表**
     使用 `publication_figure_generator.py` 脚本，处理上一步生成的 `.csv` 文件，以生成最终的论文图表。
