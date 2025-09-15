@@ -108,7 +108,7 @@ If you find this work useful in your research, please consider citing our paper:
   title        = {A First-Principles Derivation of Neural Scaling Laws: A Unified Theory of Hebbian Dynamics and Experimental Contexts},
   year         = {2025},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.17036490},
+  doi          = {10.5281/zenodo.17118793},
   url          = {https://doi.org/10.5281/zenodo.17118793}
 }
 ```
@@ -221,7 +221,7 @@ $$\frac{dW_i}{dt} = \underbrace{\eta \cdot \text{corr}(f_i, C) \cdot W_i}_{\text
   title        = {神经缩放定律的第一性原理推导：一个关于赫布动力学与实验情境的统一理论},
   year         = {2025},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.17036490},
+  doi          = {10.5281/zenodo.17118793},
   url          = {https://doi.org/10.5281/zenodo.17118793}
 }
 ```
